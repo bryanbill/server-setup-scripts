@@ -33,6 +33,9 @@ if [ "$installNode" = "y" ]; then
   # Install TypeScript
   npm install -g typescript
 
-
 fi
+
+# Install FoalTS
+npm install -g @foal/cli
+
 exit 1

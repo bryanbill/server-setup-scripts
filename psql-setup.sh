@@ -1,11 +1,5 @@
 
-# PSQL Setup Script
-# Author: Brian Omondi
-# Date: January 24, 2022
-# Description: This script will setup the PSQL database and user.
 
-# Update the system
-sudo apt-get update
 
 # Grab the packages
 sudo apt-get install -y postgresql postgresql-contrib
