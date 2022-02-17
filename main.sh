@@ -15,16 +15,16 @@ echo "Choose type of environment, (full, selective)"
 read serverType
 
 # Check the type of environment
-if ["$serverType" = "full"]; then
+if [ "$serverType" = "full"]; then
     sh ./lang-setup.sh
     sh ./psql-setup.sh
     sh ./editor-setup.sh
 fi
 
 echo "Do you need Nodejs? (y/n)"
-read psql
+read nodejs
 # Check if user wants to install PostgreSQL
-if [ "$psql" = "y" ]; then
+if [ "$nodejs" = "y" ]; then
     sh ./lang-setup.sh
 fi
 
