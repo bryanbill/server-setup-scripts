@@ -38,4 +38,4 @@ fi
 # Install FoalTS
 npm install -g @foal/cli
 
-exit 1
+exit 0
